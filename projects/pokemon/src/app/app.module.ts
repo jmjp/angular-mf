@@ -15,7 +15,6 @@ import { AppComponent } from './app.component';
   providers: []
 })
 export class AppModule { 
-
   constructor(private injector: Injector){}
 
   ngDoBootstrap(){
